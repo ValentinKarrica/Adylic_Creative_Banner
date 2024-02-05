@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Animation</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="inner-container">
+        <div id="images-container">
+          <div class="image-log-wrapper">
+            <img src="assets/logo.png" alt="Logo" />
+          </div>
+          <img
+            class="image"
+            src="assets/mens-scarf-and-briefcase@2x.png"
+            alt="Small Check Merino Wool Scarf"
+          />
+          <img
+            class="clipped-image"
+            src="assets/micro-bags@2x.png"
+            alt="Micro Bags"
+          />
+          <img
+            class="image"
+            src="assets/lily@2x.png"
+            alt="Medium Lily in Sapphire"
+          />
+          <img
+            class="image"
+            src="assets/mini-alexa@2x.png"
+            alt="Mini Alexa in Amethyst"
+          />
+        </div>
+        <div class="btn-title-wrap">
+          <button id="prevButton" class="prev-btn btn">
+            <img src="assets/arrow.png" alt="Arrow Icon" />
+          </button>
+          <div id="image-title">Mini Alexa in Amethyst</div>
+          <button id="nextButton" class="next-btn btn">
+            <img src="assets/arrow.png" alt="Arrow Icon" />
+          </button>
+        </div>
+        <div class="cta-wrapper">
+          <img src="assets/cta-2x.png" />
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
